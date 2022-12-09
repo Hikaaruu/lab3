@@ -1,0 +1,392 @@
+html {
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+header {
+  overflow: hidden;
+  display: flex;
+  background-color: #c6d9f1;
+
+  align-items: center;
+  justify-content: right;
+  min-height: 14.8vh;
+  border: solid 1px black;
+}
+
+.img_p2 {
+  margin-right: 3vw;
+  margin-left: 1vw;
+  width: 40%;
+  height: 40%;
+}
+
+.img_p4 {
+  width: 30%;
+  height: 30%;
+  margin-right: 2vw;
+}
+
+.h1main {
+  margin-left: 10px;
+}
+
+.orli {
+  margin-right: 3vw;
+}
+
+.unli {
+  margin: 4vw;
+  margin-left: 0vw;
+}
+
+.liun {
+  width: 5vw;
+}
+
+.flexrow {
+  display: flex;
+  flex-flow: row;
+}
+.flexcolumn {
+  display: flex;
+  flex-flow: column;
+}
+
+footer {
+  overflow: hidden;
+  display: flex;
+  background-color: #c6d9f1;
+
+  align-items: center;
+  justify-content: right;
+  min-height: 14.8vh;
+  border: solid 1px black;
+  border-top: none;
+}
+
+.top_box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 200px;
+  min-width: 20%;
+
+  background-color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom_box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+  margin-right: 40px;
+  min-width: 20%;
+
+  background-color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.main {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+}
+
+.second {
+  overflow: hidden;
+  width: 20vw;
+  min-height: 100%;
+  background-color: #f4cbb7;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: solid 1px black;
+  border-top: none;
+  border-right: none;
+}
+
+.third {
+  display: block;
+  overflow: hidden;
+  width: 79.9vw;
+  min-height: 10vh;
+  background-color: #a0f083;
+  display: flex;
+  align-items: center;
+  border: solid 1px black;
+  border-top: none;
+  border-bottom: none;
+}
+
+.fourth {
+  overflow: hidden;
+  width: 50vw;
+  flex-grow: 3;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+
+  border: solid 1px black;
+  border-right: none;
+}
+
+.pclass {
+  margin: 20px;
+  display: inline-block;
+  line-height: normal;
+}
+
+.fifth {
+  overflow: hidden;
+  display: block;
+  width: 30vw;
+  flex-grow: 2;
+  border: solid 1px black;
+  background-color: #f4cbb7;
+  display: flex;
+  align-items: center;
+}
+
+.sixth {
+  display: inline-block;
+  width: 50vw;
+  flex-grow: 1;
+
+  background-color: #a0f083;
+  overflow: hidden;
+  border: solid 1px black;
+  border-top: none;
+  border-right: none;
+  display: flex;
+  align-items: center;
+}
+
+.group3_456 {
+  display: flex;
+  flex-flow: column;
+  width: 80vw;
+  min-height: 100%;
+  align-items: stretch;
+  justify-content: center;
+  margin: 0;
+}
+
+.group46_5 {
+  display: flex;
+  width: 80vw;
+  min-height: 60vh;
+  align-items: normal;
+  justify-content: normal;
+}
+
+.group46 {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  width: 50vw;
+  min-height: 60vh;
+  align-items: normal;
+  justify-content: normal;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  html {
+    margin: 0px;
+  }
+
+  body {
+    margin: 0;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  header {
+    overflow: hidden;
+    display: grid;
+    background-color: #c6d9f1;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    min-height: 14.8vh;
+    border: solid 1px black;
+  }
+
+  .img_p2 {
+    margin-right: 3vw;
+    margin-left: 1vw;
+    width: 40%;
+    height: 40%;
+  }
+
+  .img_p4 {
+    width: 30%;
+    height: 30%;
+    margin-right: 2vw;
+  }
+
+  .h1main {
+  }
+
+  .orli {
+    margin-right: 3vw;
+  }
+
+  .unli {
+    margin: 4vw;
+    margin-left: 0vw;
+  }
+
+  .liun {
+    width: 5vw;
+  }
+
+  .flexrow {
+    display: flex;
+    flex-flow: row;
+  }
+  .flexcolumn {
+    display: flex;
+    flex-flow: column;
+  }
+
+  footer {
+    overflow: hidden;
+    display: grid;
+    background-color: #c6d9f1;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    min-height: 14.8vh;
+    border: solid 1px black;
+    border-top: none;
+  }
+
+  .top_box {
+    background-color: #c6d9f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 0%;
+  }
+
+  .bottom_box {
+    background-color: #c6d9f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 0%;
+  }
+
+  .main {
+    width: 100%;
+    min-height: 70vh;
+    display: grid;
+  }
+
+  .second {
+    overflow: hidden;
+    width: 100%;
+    background-color: #f4cbb7;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: solid 1px black;
+    border-top: none;
+    border-bottom: solid 1px black;
+    border-right: solid 1px black;
+  }
+
+  .third {
+    display: flex;
+    overflow: hidden;
+    min-height: 10vh;
+    width: 100%;
+    background-color: #a0f083;
+    align-items: center;
+    border: solid 1px black;
+    border-bottom: none;
+  }
+
+  .fourth {
+    overflow: hidden;
+    background-color: white;
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+    border: solid 1px black;
+  }
+
+  .pclass {
+    margin: 20px;
+    display: inline-block;
+    line-height: normal;
+  }
+
+  .fifth {
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    border: solid 1px black;
+    border-top: none;
+    background-color: #f4cbb7;
+    align-items: center;
+  }
+
+  .sixth {
+    background-color: #a0f083;
+    overflow: hidden;
+    border: solid 1px black;
+    border-top: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  .group3_456 {
+    display: grid;
+    width: 100%;
+    min-height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .group46_5 {
+    display: grid;
+    width: 100%;
+    min-height: 60vh;
+    align-items: normal;
+    justify-content: normal;
+  }
+
+  .group46 {
+    display: grid;
+    width: 100%;
+    min-height: 60vh;
+    align-items: normal;
+    justify-content: normal;
+    margin: 0;
+  }
+}
